@@ -7,10 +7,9 @@ This project aims to predict the processing times for non-stock shipments at a l
 - [Data Description](#data-description)
 - [Data Preparation](#data-preparation)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Feature Engineering](#feature-engineering)
+- [Dashboard](#dashboard)
 - [Requirements](#requirements)
 - [Usage](#usage)
-- [Contributors](#contributors)
 
 ## Overview
 The accurate prediction of dispatch processing times is crucial for logistics centers to ensure efficient operations and timely deliveries. This project involves:
@@ -38,6 +37,9 @@ The datasets used in this project include:
 2. **Distribution Analysis**: Visualize the distribution of processing times.
 3. **Correlation Analysis**: Identify correlations between numeric features using a heatmap.
 
+ ## Dashboard
+ The dashboard is under development. We are using Flask and Jinja2 to develop a web app to efficiently view all the processes, models and results.
+
 ## Requirements
 To run this project, you need the following libraries:
 - pandas
@@ -45,9 +47,14 @@ To run this project, you need the following libraries:
 - matplotlib
 - seaborn
 - scikit-learn
+- flask
+- jinja2
 
 ## Usage
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/forecasting-dispatch-processing-times.git
    cd forecasting-dispatch-processing-times
+2. To run the dashboard:
+   ```bash
+   python app.py
